@@ -111,3 +111,4 @@ fn main() -> BError {
 }
 
 //worked on rust all day.
+//worked on algorithms in Rust
