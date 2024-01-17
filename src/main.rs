@@ -102,6 +102,10 @@ impl Player {
             self.y = 0;
         }
     }
+
+    fn flap(&mut self) {
+        self.velocity = -2.0;
+    }
 }
 fn main() -> BError {
     let context = BTermBuilder::simple80x50()
@@ -112,3 +116,4 @@ fn main() -> BError {
 
 //worked on rust all day.
 //worked on algorithms in Rust
+//worked on rust today.
