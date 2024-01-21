@@ -118,3 +118,4 @@ fn main() -> BError {
 //worked on algorithms in Rust
 //worked on rust today.
 //worked on rust today at work.
+//read the rust book today.
