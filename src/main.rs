@@ -121,3 +121,4 @@ fn main() -> BError {
 //read the rust book today.
 //did lets get rusty
 //worked on rust at work
+//Worked on rust all day at work.
