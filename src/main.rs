@@ -122,3 +122,4 @@ fn main() -> BError {
 //did lets get rusty
 //worked on rust at work
 //Worked on rust all day at work.
+//watched http crash course with brad traversy
