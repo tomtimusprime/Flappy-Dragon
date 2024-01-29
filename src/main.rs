@@ -123,3 +123,4 @@ fn main() -> BError {
 //worked on rust at work
 //Worked on rust all day at work.
 //watched http crash course with brad traversy
+//watched http crash course and worked on rust if let statements.
