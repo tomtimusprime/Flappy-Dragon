@@ -1,22 +1,31 @@
 use bracket_lib::prelude::*;
-
+const SCREEN_WIDTH: i32 = 80;
+const SCREEN_HEIGHT: i32 = 50;
+const FRAME_DURATION: f32 = 75.0;
 struct State {
+    player: Player,
+    frame_time: f32,
     mode: GameMode,
 }
 
 impl State {
     fn new() -> Self {
         Self {
+            player: Player::new(5, 25),
+            frame_time: 0.0,
             mode: GameMode::Menu,
         }
     }
 
     fn play(&mut self, ctx: &mut BTerm) {
         //TODO: fill in this stub later
-        self.mode = GameMode::End;
+        ctx.cls_bg(NAVY);
+        self.frame_time += ctx.frame_time_ms;
     }
 
     fn restart(&mut self) {
+        self.player = Player::new(5, 25);
+        self.frame_time = 0.0;
         self.mode = GameMode::Playing;
     }
 
@@ -126,3 +135,4 @@ fn main() -> BError {
 //watched http crash course and worked on rust if let statements.
 //sorked on rust
 //worked on rust.
+//worked on rust game.
