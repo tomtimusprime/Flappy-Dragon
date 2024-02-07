@@ -138,3 +138,4 @@ fn main() -> BError {
 //worked on rust game.
 //worked on if let Some statements
 //Worked on Rust all day at work.
+//worked on rust all day at work.
